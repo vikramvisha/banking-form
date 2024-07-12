@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Rating Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            Bank Rating Form
+            <img src="https://example.com/great-bank-logo.png" alt="Great Bank Logo">
+        </div>
+        <div class="form-container">
+            <div class="form-group">
+                <label for="company-name">Company Name</label>
+                <input type="text" id="company-name">
+            </div>
+            <div class="form-group">
+                <label for="financial-institution-name">Financial Institution Name</label>
+                <input type="text" id="financial-institution-name">
+            </div>
+            <div class="form-group split-inputs">
+                <div>
+                    <label for="company-contact-person">Company Institution Contact Person</label>
+                    <input type="text" id="company-contact-person">
+                </div>
+                <div>
+                    <label for="financial-institution-contact">Financial Institution Name</label>
+                    <input type="text" id="financial-institution-contact">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="contact-phone">Contact Phone Number</label>
+                <input type="text" id="contact-phone">
+            </div>
+            <div class="form-group split-inputs">
+                <div>
+                    <label for="account-holder-name">Name of Account Holder</label>
+                    <input type="text" id="account-holder-name">
+                </div>
+                <div>
+                    <label for="account-date-day">Date Account Opened</label>
+                    <div class="split-inputs">
+                        <input type="text" id="account-date-day" placeholder="DD">
+                        <input type="text" id="account-date-month" placeholder="MM">
+                        <input type="text" id="account-date-year" placeholder="YYYY">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="account-type">Account Type</label>
+                <input type="text" id="account-type">
+            </div>
+            <div class="form-group">
+                <label for="balance">Balance</label>
+                <input type="text" id="balance">
+            </div>
+            <div class="form-group">
+                <label for="additional-info">Additional Information</label>
+                <input type="text" id="additional-info" class="additional-info">
+            </div>
+            <div class="pagination">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

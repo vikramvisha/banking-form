@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #faf4f4;
+}
+.container {
+    width: 60%;
+    margin: 50px auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.header {
+    background-color: #4CAF50;
+    color: rgb(182, 247, 118);
+    padding: 15px;
+    text-align: left;
+    font-size: 20px;
+    position: relative;
+}
+.header img {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    width: 30px;
+    height: 30px;
+}
+.form-container {
+    padding: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-group input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.form-group .split-inputs {
+    display: flex;
+    justify-content: space-between;
+}
+.form-group .split-inputs input {
+    width: 30%;
+}
+.additional-info {
+    height: 100px;
+}
+.form-container .pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+.form-container .pagination .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+.form-container .pagination .dot.active {
+    background-color: #4CAF50;
+}
